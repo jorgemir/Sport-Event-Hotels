@@ -1,5 +1,5 @@
 ---
-title: 2020-summer-games
+title: 2020 Summer Games
 date: 2019-01-25 02:59:20
 lang: en
 tags:

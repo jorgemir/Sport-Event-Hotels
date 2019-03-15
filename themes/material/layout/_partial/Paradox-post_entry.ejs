@@ -37,8 +37,9 @@
                 <img src="<%= url_for(theme.img.avatar) %>" width="44px" height="44px" alt="<%= config.author %>'s avatar">
             </div>
             <div>
-                <strong><%= config.author %></strong>
-                <span><%= date(post.date, 'MMM DD, YYYY') %></span>
+                <strong><%= post.title %></strong>
+                <span><%= post.eventdate %></span>
+                <span><%= post.location %></span>
             </div>
         </div>
         <div id="post_entry-right-info">
