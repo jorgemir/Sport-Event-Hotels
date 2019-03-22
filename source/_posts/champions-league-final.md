@@ -6,7 +6,7 @@ tags:
 categories: soccer
 eventdate: Saturday, May 30, 2020
 location: Atatürk Olympic Stadium, Turkey
-thumbnail: /images/uploads/super-bowl-iv.jpg
+thumbnail: /images/uploads/champions-league.jpeg
 ---
 
 The Champions League Final will take place in İstanbul, Turkey on May 30th, 2020.   

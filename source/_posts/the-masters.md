@@ -6,7 +6,7 @@ tags:
 categories: golf
 eventdate: Thursday, April 9 2020 - Sunday, April 12 2020
 location: Augusta National Golf Club, Augusta, GA
-thumbnail: /images/uploads/super-bowl-iv.jpg
+thumbnail: /images/uploads/the-masters.jpeg
 ---
 
 The 2020 Masters tournament will take place on the second week of April at the Augusta National Golf Club. Contact us for corporate or group rates on exclusive properties in Augusta, Georgia.  
