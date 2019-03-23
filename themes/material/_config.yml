@@ -184,7 +184,7 @@ sns_share:
 # Sidebar Customize
 sidebar:
     dropdown:
-        Email Me:
+        Email Us:
             link: "mailto:sporteventhotels@gmail.com"
             icon: email
     homepage:
