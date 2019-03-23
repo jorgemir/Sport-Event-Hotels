@@ -1,7 +1,10 @@
-# Hexo + Netlify CMS Starter
+# Hexo + Netlify CMS Starter 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e6a43da-b968-478e-ba3d-402e02ffe8ba/deploy-status)](https://app.netlify.com/sites/sleepy-cray-238c78/deploys)
+
 
 ## Intro
-This is an example site built with [Hexo](https://hexo.io/) and [Netlify CMS](https://github.com/netlify/netlify-cms), based on [Viosey's](https://github.com/viosey) [Hexo material theme](https://github.com/viosey/hexo-theme-material).
+This is the repo for Sport Event Hotels. The current site deisgn is based on a template for [Hexo](https://hexo.io/) and [Netlify CMS](https://github.com/netlify/netlify-cms), based on [Viosey's](https://github.com/viosey) [Hexo material theme](https://github.com/viosey/hexo-theme-material).
 
 [Live demo](https://hexo-material-cms.netlify.com)
 
