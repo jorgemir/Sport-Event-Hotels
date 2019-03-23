@@ -9,4 +9,4 @@ location: Tokyo, Japan
 thumbnail: /images/uploads/track.jpeg
 ---
 
-The Champions League Final will take place in İstanbul, Turkey on May 30th, 2020.   
+The 2020 Summer Games will take place in Tokyo, Japan. To book hotel rooms please contact us usin the form below.
