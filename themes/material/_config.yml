@@ -158,8 +158,8 @@ toc:
 # SNS Menu
 sns:
     email: sporteventhotels@gmail.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
+    facebook:
+    twitter: "https://twitter.com/HotelsEvent"
     googleplus: 
     weibo:
     instagram:
@@ -202,6 +202,10 @@ sidebar:
     pages:
         About:
             link: "/about"
+            icon: person
+            divider: false
+        Security:
+            link: "/security"
             icon: person
             divider: false
     article_num:
