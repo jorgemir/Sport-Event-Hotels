@@ -9,4 +9,4 @@ location: Beijing, China
 thumbnail: /images/uploads/2020-winter-games.jpg
 ---
 
-The 2020 Winter Games will take place in Beijing, China. To book hotel rooms please contact us usin the form below.
+The 2020 Winter Games will take place in Beijing, China. To book hotel rooms please contact us using the form below.
