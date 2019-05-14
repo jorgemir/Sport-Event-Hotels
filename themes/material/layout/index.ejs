@@ -24,7 +24,7 @@
     <% } %>
 
     <!-- Normal Post -->
-    <% page.posts.each(function(post) { %>
+    <% page.posts.sort('published').each(function(post) { %>
         <% if(!((typeof hasposttop === 'function') && post.top)) { %>
             <% if(theme.scheme === 'Paradox') { %>
                 <!-- Paradox Thumbnail -->
