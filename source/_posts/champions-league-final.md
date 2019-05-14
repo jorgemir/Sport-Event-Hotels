@@ -3,7 +3,7 @@ title: Champions League Final
 date: 2019-01-25 03:05:47
 lang: en
 tags:
-categories: soccer
+category: soccer
 eventdate: Saturday, May 30, 2020
 location: Atatürk Olympic Stadium, Turkey
 thumbnail: /images/uploads/champions-league.jpeg

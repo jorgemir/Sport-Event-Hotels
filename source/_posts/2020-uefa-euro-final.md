@@ -3,7 +3,7 @@ title: 2020 UEFA Euro Final
 date: 2019-05-11 17:57:46
 lang: en
 tags:
-categories: soccer
+category: soccer
 eventdate: July 12th 2020
 location: London, England
 thumbnail: /images/uploads/champions-league.jpeg
