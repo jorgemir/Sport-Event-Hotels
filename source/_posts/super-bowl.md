@@ -1,6 +1,6 @@
 ---
 title: Super Bowl LIV
-date: '2019-01-01T09:00:37-08:00'
+date: '2019-01-31T09:00:37-08:00'
 thumbnail: /images/uploads/super-bowl-iv.jpg
 category: nfl
 eventdate: 'Sunday, February 2 2020'
