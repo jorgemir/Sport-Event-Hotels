@@ -3,7 +3,7 @@ title: Super Bowl LIV
 date: 2018-07-25 16:00:37
 lang: en
 tags:
-categories: nfl
+category: nfl
 eventdate: Sunday, February 2 2020
 location: Hard Rock Stadium, Miami Gardens, FL
 thumbnail: /images/uploads/super-bowl-iv.jpg
