@@ -38,7 +38,7 @@
         </div>
     <% } %>
 
-    <form name="contact" data-netlify="true">
+    <form name="contact" data-netlify="true" class="mui-form">
         <p>Contact Us for a quote.</p>
         <p>
           <label>Name <input type="text" name="name" /></label>
@@ -48,6 +48,31 @@
         </p>
         <p>
             <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+                <label>Hotel Rating: </label>
+            <div class="mui-select">
+                <select name="rating[]" multiple>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+        </p>
+        <p>
+            <label>Number of Rooms: <input type="text" name="rooms"></input></label>
+        </p>
+        <p>
+            <label>Number of Suites: <input type="text" name="suites"></input></label>
+        </p>
+        <p>
+            <label>Occupancy: <input type="text" name="occupancy"></input></label>
+        </p>
+        <p>
+            <label>Comnpany Name: <input type="text" name="company"></input></label>
+        </p>
+        <p>
+            <label>Contact Number: <input type="text" name="phone"></input></label>
         </p>
         <p>
           <button type="submit">Send</button>

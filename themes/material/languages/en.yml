@@ -8,6 +8,8 @@ post:
     continue: "Read more"
     older: "Older"
     newer: "Newer"
+    previous: "Previous"
+    next: "Next"
     qrcode: "Read this article on other devices"
     comments_load_button: "Read Comments (Make sure disq.us, disquscdn.com and disqus.com can load properly)"    
     permalink: "Link to this article: "
