@@ -2,7 +2,7 @@
 title: 2022 Winter Games
 lang: en
 tags: olympics
-date: '2019-01-29T08:21:40-08:00'
+date: '2019-01-24T08:21:40-08:00'
 thumbnail: /images/uploads/2020-winter-games.jpg
 category: olympics
 eventdate: 'Friday, Feb 4, 2022 – Sunday, Feb 20, 2022'
