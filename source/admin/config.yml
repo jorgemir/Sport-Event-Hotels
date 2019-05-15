@@ -35,3 +35,4 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Date, name: date, widget: string}
           - {label: "Lang", name: "lang", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
