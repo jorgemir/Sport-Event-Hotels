@@ -25,3 +25,13 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Category", name: "category", widget: "markdown"}
       - {label: "Event Date", name: "eventdate", widget: "markdown"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "source/about/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Date, name: date, widget: string}
+          - {label: "Lang", name: "lang", widget: "string"}
