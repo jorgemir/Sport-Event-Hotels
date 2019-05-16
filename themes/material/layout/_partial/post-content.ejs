@@ -32,8 +32,11 @@
         </div>
     <% } %>
 
-    <form name="contact" data-netlify="true" class="mui-form">
+    <form name="contact" netlify-honeypot="human" data-netlify="true" data-netlify-recaptcha="true">
         <p>Contact Us for a quote.</p>
+        <p style="display:none;">
+            <label>Don’t fill this out if you're human: <input name="human" /></label>
+        </p>
         <p>
           <label>Name <input type="text" name="name" /></label>
         </p>
@@ -68,6 +71,7 @@
         <p>
             <label>Contact Number: <input type="text" name="phone"></input></label>
         </p>
+        <div data-netlify-recaptcha="true"></div>
         <p>
           <button type="submit">Send</button>
         </p>
