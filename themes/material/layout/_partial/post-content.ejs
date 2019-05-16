@@ -32,48 +32,5 @@
         </div>
     <% } %>
 
-    <form name="contact" netlify-honeypot="human" data-netlify="true" data-netlify-recaptcha="true">
-        <p>Contact Us for a quote.</p>
-        <p style="display:none;">
-            <label>Don’t fill this out if you're human: <input name="human" /></label>
-        </p>
-        <p>
-          <label>Name <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Email <input type="email" name="email" /></label>
-        </p>
-        <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-                <label>Hotel Rating: </label>
-            <div class="mui-select">
-                <select name="rating[]" multiple>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select>
-            </div>
-        </p>
-        <p>
-            <label>Number of Rooms: <input type="text" name="rooms"></input></label>
-        </p>
-        <p>
-            <label>Number of Suites: <input type="text" name="suites"></input></label>
-        </p>
-        <p>
-            <label>Occupancy: <input type="text" name="occupancy"></input></label>
-        </p>
-        <p>
-            <label>Comnpany Name: <input type="text" name="company"></input></label>
-        </p>
-        <p>
-            <label>Contact Number: <input type="text" name="phone"></input></label>
-        </p>
-        <div data-netlify-recaptcha="true"></div>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+    <%- partial('_partial/form') %>
 </div>
