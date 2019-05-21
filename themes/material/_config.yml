@@ -264,7 +264,7 @@ search:
 # Available value:
 #     baidu | google | cnzz
 analytics:
-    google_site_id:
+    google_site_id: 133004219
     baidu_site_id:
     cnzz_site_id:
 
