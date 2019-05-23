@@ -10,27 +10,5 @@
         <% } %>
     <% } %>
 
-    <% if(theme.scheme === 'Isolation') { %>
-        <div class="post-content_wrapper">
-            <p class="post-title">
-                <%- page.title %>
-            </p>
-            <%- page.content %>
-            <% if (page.license || theme.license) { %>
-                <blockquote>
-                    <p>
-                        <% if (page.license) { %>
-                            <%- page.license %>
-                        <% } else { %> 
-                            <%- theme.license %>
-                        <% } %>
-                        <br>
-                        <%- __('post.permalink') %> <%= page.permalink %>
-                    </p>
-                </blockquote>
-            <% } %>
-        </div>
-    <% } %>
-
     <%- partial('_partial/form') %>
 </div>

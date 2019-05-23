@@ -9,8 +9,7 @@ head:
     apple_touch_icon: "/img/favicon.png"
     keywords:
     site_verification:
-        google:
-        baidu:
+        google: m9TldJmkuK-NS0aw1fmmUPU-baIas2xwrogqte4B8IM
 
     # Enable generate structured-data as JSON+LD for SEO or not.
     #    Set as 'false' if it cause some wrong when `hexo g`.
@@ -29,7 +28,6 @@ url:
 
 # Schemes
 scheme: Paradox
-#scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
@@ -63,10 +61,6 @@ thumbnail:
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    #bgimg: "/img/bg.png"
-    bing:
-        enable: false
-        parameter:
 
 # Images Settings
 img:
@@ -98,7 +92,7 @@ card_elevation: 2
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
-copyright_since:
+copyright_since: 2018
 
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
@@ -114,28 +108,6 @@ footer_text:
 qrcode:
     enable: false
     use: plugin
-
-# Code highlight
-# You can only enable one of them to avoid issues.
-# Also you need to disable highlight option in hexo's _config.yml.
-#
-#    Prettify
-#        theme: # Available value in /source/css/prettify/[theme].min.css
-prettify:
-    enable: false
-    theme: "github-v2"
-
-#    Hanabi (https://github.com/egoist/hanabi)
-#        line_number: [true/false] # Show line number for code block
-#        includeDefaultColors: [true/false] # Use default hanabi colors
-#        customColors: This value accept a string or am array to setting for hanabi colors.
-#                    - If `includeDefaultColors` is true, this will append colors to the color pool
-#                    - If `includeDefaultColors` is false, this will instead default color pool
-hanabi:
-    enable: false
-    line_number: true
-    includeDefaultColors: true
-    customColors: 
 
 # Post License
 # You can specify the text you want to show in the end of your posts and pages, HTML tag is supported.
@@ -160,26 +132,15 @@ sns:
     email: sporteventhotels@gmail.com
     facebook:
     twitter: "https://twitter.com/HotelsEvent"
-    googleplus: 
-    weibo:
     instagram:
-    tumblr:
     github:
     linkedin:
-    zhihu:
-    bilibili:
-    telegram:
-    v2ex:
 
 # SNS Share Switch
 sns_share:
     twitter: true
     facebook: true
-    googleplus: false
-    weibo: false
     linkedin: false
-    qq: false
-    telegram: false
 
 # Sidebar Customize
 sidebar:
@@ -265,22 +226,6 @@ search:
 #     baidu | google | cnzz
 analytics:
     google_site_id: 133004219
-    baidu_site_id:
-    cnzz_site_id:
-
-# Leancloud Views
-leancloud:
-    enable: false
-    app_id: #你的 app_id
-    app_key: #你的 app_key
-    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
-
-# Busuanzi 不蒜子 Views
-busuanzi:
-    enable: false
-    all_site_uv: false
-    post_pv: false
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
 # Files Vendors
 # Set a CDN for the files src you want to customize. The url should with protocol.
@@ -303,9 +248,5 @@ vendors:
     nprogress:
     # FontAwesome 4.5.0
     fontawesome:
-    # MathJax 2.7.0-2.7.1
-    mathjax:
-    # Prettify r298 (only prettify.js)
-    prettify:
     # Material Icons 3.0.1
     material_icons:

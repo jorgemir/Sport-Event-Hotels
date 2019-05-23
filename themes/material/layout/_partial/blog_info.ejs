@@ -40,32 +40,6 @@
             <span class="visuallyhidden">show menu</span>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
-            <% if(theme.busuanzi.all_site_uv === true) { %>
-                <!-- All Site UV -->
-                <a class="index_share-link" href="#">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        <span id="busuanzi_container_site_uv">
-                            <span id="busuanzi_value_site_uv"></span>&nbsp;<%= __('post.views') %>
-                        </span>
-                    </li>
-                </a>
-            <% } %>
-
-            <% if(theme.url.rss) { %>
-                <a class="index_share-link" href="<%= theme.url.rss || '#' %>">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        <%= __('share.article_rss') %>
-                    </li>
-                </a>
-            <% } %>
-
-            <% if(theme.sns_share.weibo === true) { %>
-                <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=<%= config.title %>&url=<%- config.url %>&pic=<%- config.url + theme.head.favicon %>&searchPic=false&style=simple" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        <%= __('share.toWeibo') %>
-                    </li>
-                </a>
-            <% } %>
 
             <% if(theme.sns_share.twitter === true) { %>
                 <a class="index_share-link" href="https://twitter.com/intent/tweet?text=<%= config.title %>&url=<%- config.url %> %>" target="_blank">
@@ -83,14 +57,6 @@
                 </a>
             <% } %>
 
-            <% if(theme.sns_share.googleplus === true) { %>
-                <a class="index_share-link" href="https://plus.google.com/share?url=<%- config.url %>" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        <%= __('share.toGplus') %>
-                    </li>
-                </a>
-            <% } %>
-
             <% if(theme.sns_share.linkedin === true) { %>
                 <a class="index_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=<%- config.url %>&title=<%= config.title %>" target="_blank">
                     <li class="mdl-menu__item mdl-js-ripple-effect">
@@ -99,21 +65,6 @@
                 </a>
             <% } %>
 
-            <% if(theme.sns_share.qq === true) { %>
-                <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=<%= config.title %>&title=<%= config.title %>&summary=<%= config.description %>&pics=<%- config.url + theme.head.favicon %>&url=<%- config.url %>" target="_blank">
-                    <li class="mdl-menu__item">
-                        <%= __('share.toQQ') %>
-                    </li>
-                </a>
-            <% } %>
-
-            <% if(theme.sns_share.telegram === true) { %>
-                <a class="post_share-link" href="https://telegram.me/share/url?url=<%- config.url %>&text=<%= config.title %>" target="_blank">
-                    <li class="mdl-menu__item">
-                        <%= __('share.toTelegram') %>
-                    </li>
-                </a>
-            <% } %>
         </ul>
     </div>
 </div>
