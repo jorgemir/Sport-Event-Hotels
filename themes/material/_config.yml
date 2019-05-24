@@ -8,8 +8,6 @@ head:
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
     keywords:
-    site_verification:
-        google: m9TldJmkuK-NS0aw1fmmUPU-baIas2xwrogqte4B8IM
 
     # Enable generate structured-data as JSON+LD for SEO or not.
     #    Set as 'false' if it cause some wrong when `hexo g`.
