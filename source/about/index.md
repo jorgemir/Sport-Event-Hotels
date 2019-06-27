@@ -7,9 +7,9 @@ EventPro Productions, Incentives and Hospitality
 
 Is an Award-Winning Production company with over 35 years of Experience.
 
-Specializing in Incentives, Entertainment, Corporate and Hospitality events for Live Events, Sporting Events and Concert Events
+Specializing in Incentives, Entertainment, Corporate and Hospitality events for Live Events, Sporting Events and Concert Events.
 
-With our years of experience no detail is left undone . 
+With our years of experience no detail is left undone. 
 
 Hotels, Logistics, Transportation, Hospitality Parties, and Team Building .We do it all
 
